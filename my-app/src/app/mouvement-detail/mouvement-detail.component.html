@@ -1,0 +1,18 @@
+<div class="container">
+  <dl class="list">
+    <dt>Type</dt>
+    <dd>{{ mouv.type }}</dd>
+    <dt>Date</dt>
+    <dd>{{ mouv.date }}</dd>
+    <dt>Description</dt>
+    <dd>{{ mouv.description }}</dd>
+    <dt>Somme</dt>
+    <dd>{{ mouv.somme }}</dd>
+  </dl>
+  <div class="row">
+    <div class="col-md-12">
+      <a [routerLink]="['/mouvement-edit', mouv._id]" class="btn btn-success">EDIT</a>
+      <button class="btn btn-danger" type="button" (click)="deleteMouvement(mouv._id)">DELETE</button>
+    </div>
+  </div>
+</div>

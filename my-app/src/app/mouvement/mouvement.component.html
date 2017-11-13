@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Mes mouvements
+    <a [routerLink]="['/mouvement-create']" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    </a>
+  </h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Type transaction</th>
+        <th>description</th>
+        <th>date</th>
+        <th>somme</th>     
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let mouvement of mouvs">
+        <td><h1>{{ mouvement.type }}</h1></td>
+        <td><h1>{{ mouvement.description }}</h1></td>
+        <td><h1>{{ mouvement.date }}</h1></td>
+        <td><h1>{{ mouvement.somme }}</h1></td>
+        <td><a [routerLink]="['/mouvement-details', mouvement._id]">Show Details</a></td>
+      </tr>
+    </tbody>
+  </table>
