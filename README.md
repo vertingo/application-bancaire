@@ -4,11 +4,7 @@ Une application MEAN simple utilisant Angular 2, avec une authentification inté
 
 ## Usage
 
-Simply `npm install` your dependencies, then start your mongodb by opening two commands lines  and executing theses two followings commands: 
-`C:\DevelopeWithVertin\MEAN\env\mongodb\bin\mongod.exe --dbpath C:\DevelopeWithVertin\MEAN\env\data` and `C:\DevelopeWithVertin\MEAN\env\mongodb\bin\mongo.exe` and then run `npm start`.
- This starts a local server, launches pm2, and builds out the Angular 2 dist folder. In your browser, go to localhost:3000 to see the app. Changes will be live-reloaded in your browser. To stop, type `ctrl + c` and then `pm2 stop 0`. That will cut your local server and stop the ng builds.
-
- Simplement "npm install" vos dépendances, puis démarrez votre mongodb en ouvrant deux lignes de commandes et en exécutant les deux commandes suivantes:
+ Simplement "npm install" vos dépendances, puis démarrez votre mongodb en ouvrant deux lignes de commandes et en exécutant les deux commandes suivantes(Changer le chemin en fonction du dossier dans lequelle vous avez installé MongoDb):
 `C: \ DevelopeWithVertin \ MEAN \ env \ mongodb \ bin \ mongod.exe - chemin C: \ DevelopeWithVertin \ MEAN \ env \ data` et` C: \ DevelopeWithVertin \ MEAN \ env \ mongodb \ bin \ mongo.exe` puis exécutez `npm start`.
   Cela démarre un serveur local, lance pm2 et génére le dossier dist Angular 2. Dans votre navigateur, allez à localhost: 3000 pour voir l'application. Les modifications seront rechargées en direct dans votre navigateur. Pour arrêter, tapez `ctrl + c`, puis` pm2 stop 0`. Cela va couper votre serveur local et arrêter les builds ng
 
