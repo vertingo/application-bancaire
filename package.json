@@ -15,6 +15,7 @@
     "mocha": "~1.14.0",
     "mongoose": "^4.7.0",
     "morgan": "~1.7.0",
+    "mustache": "^2.3.0",
     "serve-favicon": "~2.3.0",
     "should": "~2.1.0"
   },

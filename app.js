@@ -13,7 +13,9 @@ var userController = require('./http/controllers/user');
 var Mouvement = require('./models/mouvement');
 var mouvementController = require('./http/controllers/mouvement');
 //var chatController = require('./http/controllers/chat');
+//var engines = require('consolidate');
 var app = express();
+
 
 app.set('view engine', 'jade');
 app.set('view engine', 'html');
