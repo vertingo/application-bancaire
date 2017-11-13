@@ -1,4 +1,4 @@
-# MEA2N + User Auth with JWT
+# MEA2N + User Authentification avec JWT
 
 Une application MEAN simple utilisant Angular 2, avec une authentification intégrée à l'aide de JWT (Web Tokens) JSON.
 
