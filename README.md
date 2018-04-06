@@ -40,9 +40,9 @@ Passons maintenant à la partie front-end celle d'angular.
 
 #SERVICE
 On a créer trois services à l'aide de la commande ng generate service -nom_du_service:
--auth.service.ts  
--mouv.service.ts
--chat.service
+- auth.service.ts  
+- mouv.service.ts
+- chat.service
 
 Ces services vont nous permettre de faire une correspondance entre les méthodes déjà défini sur nos controlleurs  et les méthodes du services. Ensuite on pourra les exploiter dans nos components 
 
@@ -50,8 +50,8 @@ Ces services vont nous permettre de faire une correspondance entre les méthodes
 Pour réaliser l'authentification on avait besoin de créer deux components à l'aide de la commande:
 ng generate component -nom_du_component
 
--register: ce dernier vas assurer la partie enregistrement de nouveau utilisateur
--login: est pour permettre a un utilisateur déjà enregistrer
+- register: ce dernier vas assurer la partie enregistrement de nouveau utilisateur
+- login: est pour permettre a un utilisateur déjà enregistrer
 
 Pour gérer nos transaction ou mouvement(retrait/virement) on a créé cinq components:
 - home : le composant qui vas afficher l'interface ou il y a un menu pour choisir son action
