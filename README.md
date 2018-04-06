@@ -8,7 +8,7 @@ Une application MEAN simple utilisant Angular 2, avec une authentification inté
 La commande sans les accolades:  
 
 ```
-{C:\DevelopeWithVertin\MEAN\env\mongodb\bin\mongod.exe  C:\DevelopeWithVertin\MEAN\env\data} 
+{C:\DevelopeWithVertin\MEAN\env\mongodb\bin\mongod.exe --dbpath C:\DevelopeWithVertin\MEAN\env\data} 
 et
 {C:\DevelopeWithVertin\MEAN\env\mongodb\bin\mongo.exe}
 puis exécutez la commande npm start.
