@@ -1,9 +1,9 @@
 ![Image](https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/vertin_go_website.jpg)
-# MEA2N + User Authentification avec JWT
+# 🌐 MEA2N + User Authentification avec JWT
 
 Une application MEAN simple utilisant Angular 2, avec une authentification intégrée à l'aide de JWT (Web Tokens) JSON.
 
-## Usage
+## 🌐 Usage
 
  Simplement "npm install" installe vos dépendances, puis démarrez votre MongoDb en ouvrant deux lignes de commandes et en exécutant les deux commandes suivantes(Changer le chemin en fonction du dossier dans lequel vous avez installé MongoDb):
 La commande sans les accolades:  
@@ -18,7 +18,7 @@ puis exécutez la commande npm start.
 Cela démarre un serveur local, lance le processus pm2 et génère le dossier dist Angular 2.
 Dans votre navigateur, allez à localhost: 3000 pour voir l'application. Les modifications seront rechargées en direct dans votre navigateur. Pour arrêter, tapez 'ctrl + c', puis 'pm2 stop 0'. Cela va couper votre serveur local et arrêter les builds ng
 
-## Détails
+## 🌐 Détails
 
 Dans la racine du projet on créer un dossier http qui contient un autre dossier nommé controlleurs et middleware.
 
@@ -66,7 +66,7 @@ Finalement arrive le component du chat qui servira à implémenter la partie cha
 #Routing
 Ensuite on a créé un fichier app-routing.module.ts afin de définir toutes les routes (PATH) ou redirection dont on aura besoin, ceci est pour permettre la navigation entre différents components. 
 
-## Contributions
+## 🌐 Contributions
 
 Pull requests always welcome.
 
