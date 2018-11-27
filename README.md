@@ -1,3 +1,4 @@
+![Image](https://raw.githubusercontent.com/vertingo/Easy_Admin_YouTube_Newsletter_Firebase/master/web/assets/images/github/vertin_go_website.jpg)
 # MEA2N + User Authentification avec JWT
 
 Une application MEAN simple utilisant Angular 2, avec une authentification intégrée à l'aide de JWT (Web Tokens) JSON.
